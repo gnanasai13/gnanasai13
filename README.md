@@ -1,49 +1,71 @@
-# Gnana Sai Talla
+# Hi, I'm Gnana Sai Talla
 
-**Backend Software Engineer | Python | FastAPI | Django | SQL**
+<p>
+  <strong>Backend Software Engineer</strong> · Python · FastAPI · Django · SQL
+</p>
 
-I build backend applications and APIs with a focus on reliable data flows, clear service boundaries, and practical problem-solving. My experience includes Python backend development, relational databases, caching, asynchronous processing, search, and API integrations.
+I enjoy building backend systems that solve practical problems: designing APIs, modelling data, making asynchronous workflows reliable, and handling concurrency and search at scale. My work has included Python services, relational databases, Redis, Elasticsearch, and integrating AI capabilities into applications.
 
-I'm especially interested in backend engineering, database design, concurrency, distributed systems, and building services that are maintainable under real-world workloads.
+I'm interested in backend engineering, system design, distributed systems, and building products that are useful beyond a demo.
 
 ## Featured projects
 
-### [Ticket Booking Service](https://github.com/gnanasai13/ticket-booking-service)
-**FastAPI · PostgreSQL · Redis · SQLAlchemy · Docker**
+### [TrustCircle — Community-Powered Scam Intelligence](https://github.com/gnanasai13/trustcircle)
 
-A ticket reservation backend focused on correctness under concurrent requests.
+**Python · FastAPI · PostgreSQL · Redis · Celery · Elasticsearch · Next.js · Optional AI**
+
+A platform for investigating suspicious messages and discovering connections between separate reports.
+
+- Built a privacy-aware report pipeline with PII redaction, normalized indicators, and keyed HMAC digests for sensitive identifiers.
+- Implemented asynchronous investigation using a transactional outbox, Celery workers, idempotency checks, retries, and failed-event requeue.
+- Developed provisional campaign correlation using shared indicators, message fingerprints, token similarity, and optional embedding similarity.
+- Added Elasticsearch search, community corroboration, moderation workflows, and optional structured AI classification.
+
+### [Ticket Booking Service](https://github.com/gnanasai13/ticket-booking-service)
+
+**Python · FastAPI · PostgreSQL · Redis · SQLAlchemy · Docker**
+
+A reservation backend focused on correctness when multiple users try to book the same seat.
 
 - Implemented temporary seat holds, confirmation, cancellation, expiry, and idempotent reservation workflows.
 - Used PostgreSQL row-level locking and a partial unique index to prevent double booking.
-- Added expiry processing with `FOR UPDATE SKIP LOCKED`, Redis-backed rate limiting, and an outbox workflow for notification events.
-- Payment and notification delivery are explicitly simulated in this portfolio implementation.
+- Added expiry processing with FOR UPDATE SKIP LOCKED, Redis-backed rate limiting, event caching, and a transactional notification outbox.
+- Includes PostgreSQL integration tests and GitHub Actions CI. Payment and notification delivery are explicitly simulated.
 
 ### [URL Shortener](https://github.com/gnanasai13/url-shortener)
-**FastAPI · MySQL · Redis · Celery · SQLAlchemy**
+
+**Python · FastAPI · MySQL · Redis · Celery · SQLAlchemy**
 
 A modular URL-shortening API with link management and click analytics.
 
 - Implemented JWT authentication, custom aliases, expiry, password-protected links, and owner-scoped URL management.
 - Used Redis for redirect caching and rate limiting.
 - Moved click recording and expired-link cleanup into Celery background tasks.
-- Includes automated tests and CI; see the repository README for the current test and coverage details.
+- Includes automated tests, database migrations, and GitHub Actions CI.
 
 ## Technical skills
 
-- **Languages:** Python, Java, C++, JavaScript, SQL
-- **Backend:** FastAPI, Django, Flask, REST APIs, asynchronous Python
-- **Data & storage:** PostgreSQL, MySQL, Oracle SQL, Redis, Elasticsearch
-- **Frontend:** React, Next.js
-- **Tools:** Git, Docker, AWS, Jenkins, Postman
-- **Practices:** API design, database modelling, automated testing, CI/CD, caching, background jobs
+| Area | Technologies |
+|---|---|
+| Languages | Python, Java, C++, JavaScript, SQL |
+| Backend | FastAPI, Django, Flask, REST APIs, asynchronous Python |
+| Databases & search | PostgreSQL, MySQL, Oracle SQL, Elasticsearch |
+| Caching & background jobs | Redis, Celery |
+| Frontend | React, Next.js |
+| Tools & delivery | Git, Docker, AWS, Jenkins, Postman, CI/CD |
+| Engineering | API design, data modelling, database transactions, concurrency, testing, caching, system design |
 
-## Engineering interests
+## Currently interested in
 
-- Backend architecture and system design
+- Backend architecture and low-level / high-level system design
+- Distributed processing, queues, retries, idempotency, and eventual consistency
 - Database transactions, concurrency control, and query optimization
-- Caching, background processing, and distributed systems
-- API reliability, testing, and performance
-- Applying AI capabilities in backend products
+- Search, caching, and reliable data pipelines
+- Practical AI integration in backend products
+
+## Education
+
+**B.Tech — Indian Institute of Technology Gandhinagar (IIT Gandhinagar)**
 
 ## Connect
 
