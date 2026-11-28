@@ -12,14 +12,15 @@ I'm interested in backend engineering, system design, distributed systems, and b
 
 ### [TrustCircle — Community-Powered Scam Intelligence](https://github.com/gnanasai13/trustcircle)
 
-**Python · FastAPI · PostgreSQL · Redis · Celery · Elasticsearch · Next.js · Optional AI**
+**Python · FastAPI · PostgreSQL · Redis · Celery · Elasticsearch · Next.js · OpenAI**
 
 A platform for investigating suspicious messages and discovering connections between separate reports.
 
 - Built a privacy-aware report pipeline with PII redaction, normalized indicators, and keyed HMAC digests for sensitive identifiers.
 - Implemented asynchronous investigation using a transactional outbox, Celery workers, idempotency checks, retries, and failed-event requeue.
-- Developed provisional campaign correlation using shared indicators, message fingerprints, token similarity, and optional embedding similarity.
-- Added Elasticsearch search, community corroboration, moderation workflows, and optional structured AI classification.
+- Developed provisional campaign correlation using shared indicators, message fingerprints, token similarity, and OpenAI-generated semantic embeddings.
+- Integrated OpenAI-powered structured message classification to identify scam categories and tactics, with evidence-quote validation.
+- Added Elasticsearch search, community corroboration, moderation workflows, and audit-backed review.
 
 ### [Ticket Booking Service](https://github.com/gnanasai13/ticket-booking-service)
 
@@ -51,6 +52,7 @@ A modular URL-shortening API with link management and click analytics.
 | Backend | FastAPI, Django, Flask, REST APIs, asynchronous Python |
 | Databases & search | PostgreSQL, MySQL, Oracle SQL, Elasticsearch |
 | Caching & background jobs | Redis, Celery |
+| AI integration | OpenAI API, structured classification, text embeddings |
 | Frontend | React, Next.js |
 | Tools & delivery | Git, Docker, AWS, Jenkins, Postman, CI/CD |
 | Engineering | API design, data modelling, database transactions, concurrency, testing, caching, system design |
