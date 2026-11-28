@@ -8,9 +8,26 @@ I enjoy building backend systems that solve practical problems: designing APIs, 
 
 I'm interested in backend engineering, system design, distributed systems, and building products that are useful beyond a demo.
 
+## GitHub stats
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=gnanasai13&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=transparent"
+    alt="GitHub statistics, including total stars"
+    height="165"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnanasai13&layout=compact&hide_border=true&theme=transparent"
+    alt="Most used programming languages"
+    height="165"
+  />
+</p>
+
 ## Featured projects
 
 ### [TrustCircle — Community-Powered Scam Intelligence](https://github.com/gnanasai13/trustcircle)
+
+![GitHub stars](https://img.shields.io/github/stars/gnanasai13/trustcircle?style=flat&label=stars)
 
 **Python · FastAPI · PostgreSQL · Redis · Celery · Elasticsearch · Next.js · OpenAI**
 
@@ -24,6 +41,8 @@ A platform for investigating suspicious messages and discovering connections bet
 
 ### [Ticket Booking Service](https://github.com/gnanasai13/ticket-booking-service)
 
+![GitHub stars](https://img.shields.io/github/stars/gnanasai13/ticket-booking-service?style=flat&label=stars)
+
 **Python · FastAPI · PostgreSQL · Redis · SQLAlchemy · Docker**
 
 A reservation backend focused on correctness when multiple users try to book the same seat.
@@ -34,6 +53,8 @@ A reservation backend focused on correctness when multiple users try to book the
 - Includes PostgreSQL integration tests and GitHub Actions CI. Payment and notification delivery are explicitly simulated.
 
 ### [URL Shortener](https://github.com/gnanasai13/url-shortener)
+
+![GitHub stars](https://img.shields.io/github/stars/gnanasai13/url-shortener?style=flat&label=stars)
 
 **Python · FastAPI · MySQL · Redis · Celery · SQLAlchemy**
 
